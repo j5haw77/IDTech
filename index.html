@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <title>Tutorial</title>
+  <style>
+    img {
+      width: 30%;
+      position: relative;
+    }
+  </style>
+  <script>
+
+    function driveAway() {
+      document.getElementById("car").style.left = "100px";
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Web Programming!</h1>
+  </header>
+  <section id=main>
+      <p>This is a thing</p>
+      <p id=other>This is another thing</p>
+      <img id=car src="img/jscar.gif">
+      <br>
+      <button onclick="driveAway()">Go!</button>
+  </section>
+</body>
